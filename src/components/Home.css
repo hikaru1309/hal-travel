@@ -1,0 +1,61 @@
+/* ホーム画面の全体 */
+.home-container {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+/* エラーメッセージ */
+.error-message {
+  color: red;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* プランカード */
+.plan-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+/* プランがまだない場合 */
+.no-plan-message {
+  color: #888;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+/* ログアウトボタン */
+.logout-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.logout-button:hover {
+  background-color: #0056b3;
+}
+
+.plan-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* .plan-card ul li {
+  background-color: #f9f9f9;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: left;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} */
